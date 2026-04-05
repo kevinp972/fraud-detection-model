@@ -1,6 +1,6 @@
-# Real-Time Fraud Detection Model
+## Real-Time Fraud Detection Model
 
-## Start Here
+### Start Here
 
 For a complete walkthrough of the methodology, findings, and results, please refer to the report:
 
@@ -10,11 +10,11 @@ The report covers data exploration, feature engineering, model selection, perfor
 
 ---
 
-## Project Overview
+### Project Overview
 
 This project builds a transaction-level fraud detection model on corporate card data. The pipeline spans exploratory analysis through model deployment, with the goal of maximizing the Fraud Detection Rate (FDR) — the share of fraudulent transactions captured when reviewing the top N% of highest-scoring transactions.
 
-## Repository Structure
+### Repository Structure
 
 | Notebook | Description |
 |---|---|
@@ -27,7 +27,7 @@ This project builds a transaction-level fraud detection model on corporate card 
 
 The trained model is saved as `fraud_model_bundle.joblib`, which includes the fitted XGBoost model and the list of selected features.
 
-## Key Results
+### Key Results
 
 | Metric | Training | Testing | OOT |
 |---|---|---|---|
@@ -40,7 +40,7 @@ The FDR measures how much fraud is captured when reviewing the top N% of transac
 
 At this threshold the model captures the majority of fraud while keeping the volume of false positives operationally manageable.
 
-## Notes
+### Notes
 
 - This is a passion project that I'm most proud of to date. Please enjoy. :)
 - All analysis is conducted at the transaction level using one year of card transaction data.
