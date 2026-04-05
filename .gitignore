@@ -1,3 +1,7 @@
 *.csv
 *.parquet
 catboost_info/
+*.png
+*.docx
+*.xlsx
+*.joblib
