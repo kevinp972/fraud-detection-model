@@ -4,4 +4,3 @@ catboost_info/
 *.png
 *.docx
 *.xlsx
-*.joblib
